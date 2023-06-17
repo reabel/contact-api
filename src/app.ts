@@ -6,7 +6,11 @@ const port = 3000;
 //run npx tsc to compile typescript to javascript
 
 app.get('/', (req, res) => {
-    res.send('The sedulous hyena ate the antelope!');
+    res.send('GET / ');
+});
+
+app.post('/', (req, res) => {
+    res.send('POST / ');
 });
 
 app.listen(port, () => {

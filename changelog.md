@@ -2,5 +2,5 @@
 
 ## 0.0.1
 
-- Adding changelog
-- 
+- Added changelog
+- Added Typescript and ESLint.
