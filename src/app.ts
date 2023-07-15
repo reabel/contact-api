@@ -16,6 +16,8 @@ app.post('/', (req, res) => {
 app.listen(port, () => {
     return console.log('Express is listening at http://localhost:${port}');
 });
+
+//Maybe add [cassandra DB](https://cassandra.apache.org/_/index.html) to the app
 // const hostname = '127.0.0.1';
 // const port = 3000;
 
